@@ -1,0 +1,354 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Chapter 5 links html to css -->
+  </head>
+
+  <body>
+    <h1 id="top">Joe Chesney</h1>
+    <h2>That's my name. Don't wear it out. Chups Town.</h2>
+    <br> ^2^ <br><hr>
+
+    <p>Brand new text here !!!<br>Some more text here!!</p>
+    <br> ^3^ <br><hr>
+
+    <p class="important"> Warning: We have no slow lorises here.</p>
+    <br> ^7^ <br><hr>
+    
+    <h2 class="type-writer">This is a heading in the typewriter font.</h2>
+    <p class="type-writer">This is a paragraph also in the typewriter font.</p>
+    <br> ^8^ <br><hr>
+
+    <h2 class="emphasized">This is a heading in italics.</h2>
+    <p class="emphasized"><b>This</b> <i>is</i> a <em>paragraph</em> in <strong>italics</strong>.</p>
+    <br> ^10^ <br><hr>
+
+    <p>This paragraph uses <span class="emphasized">the emphasized class to make these words 
+    </span> appear in italics.</p>
+    <br> ^ 11 ^ <br><hr>
+
+    <p>This is some text to show the <span class="standout">red text</span> &lt;span&gt; class element. It's very chups.</p>
+    <br> ^ 11 & 12 ^ <br> <hr>
+
+    <p class="lines"> Here is some text with fucked up letter spacing and word spacing and also it's line height has been increased, so there's all sorts of extra space all over the damn place. </p>
+    <br> ^13^ <br><hr>
+
+
+
+    <h3>This is centered cause it's an h3 heading. </h3>
+    <p class="justify">This is a long ass block of text that has been justified to fit evenly on the left and right sides of the screen. This is a long ass block of text that has been justified to fit evenly on the left and right sides of the screen.    
+This is a long ass block of text that has been justified to fit evenly on the left and right sides of the screen.    
+This is a long ass block of text that has been justified to fit evenly on the left and right sides of the screen.    
+This is a long ass block of text that has been justified to fit evenly on the left and right sides of the screen.    
+</p>
+    <br> ^ 14 ^ <br><hr>
+
+
+    <p class="indented">This paragraph shows how to indent a paragraph using the "text-indent" property.</p>
+    <blockquote><h2>This is a blockquote heading!</h2><p>This is a paragraph inside of the same blockquote tag. It places a quote, or whatever the hell, fully indented along the left side.</p></blockquote>
+    <br> ^15 ^ <br><hr>
+
+
+    <p class="margin">This is a paragraph with extra huge margins to showcase what margins are and how they work. These margins are set to>>>> top: 3em, right: 2em, bot: 5em, left: 10em. This is a paragraph with extra huge margins to showcase what margins are and how they work. These margins are set to>>>> top: 3em, right: 2em, bot: 5em, left: 10em. This is a paragraph with extra huge margins to showcase what margins are and how they work. These margins are set to>>>> top: 3em, right: 2em, bot: 5em, left: 10em. This is a paragraph with extra huge margins to showcase what margins are and how they work. These margins are set to>>>> top: 3em, right: 2em, bot: 5em, left: 10em.</p>
+    <br> ^ 16 ^ <br><hr>
+
+
+    <h2 class="border"> This is a heading with a border.</h2>
+    <br> ^ 17 ^ <br><hr>
+
+
+    <h4 class="center">This is a centered because it's an h4 heading </h4>
+    <p class="center">This is a centered paragraph.</p>
+    <br> ^ 20 ^ <br><hr>
+
+
+    <h2 id="orange">This is an orange ass h2 header, marfecky.</h2>
+    <br> ^ 21 ^ <br><hr>
+
+
+    <div id="artsy">
+      <h2>Here's a header with 3em margins on the left and right sides, and is in the Arial font.</h2>
+      <p>Here's a paragraph with some text that has left and right margins of 3em and is in the Arial font.Here's a paragraph with some text that has left and right margins of 3em and is in the Arial font.Here's a paragraph with some text that has left and right margins of 3em and is in the Arial font.Here's a paragraph with some text that has left and right margins of 3em and is in the Arial font.Here's a paragraph with some text that has left and right margins of 3em and is in the Arial font.</p>
+    </div>
+    <br> ^ 22 ^ <br><br><br><hr>
+
+
+
+    <img src="http://www.asmarterwaytolearn.com/loris.jpg"> <!-- this first image from ch 23 -->
+    <img src="http://www.asmarterwaytolearn.com/loris.jpg">
+    <img src="http://www.asmarterwaytolearn.com/loris.jpg">
+    <img src="http://www.asmarterwaytolearn.com/loris.jpg"><br>
+    <img src="http://www.asmarterwaytolearn.com/loris.jpg"><br>
+    Images are all inline by default. That's why they all line up next to each other.
+    <br> There is a simple line break using &lt;br&gt; before this last image.<br> ^ 23 ^ <br><hr>
+
+
+    <img class="blocky" src="http://www.asmarterwaytolearn.com/loris.jpg">
+    <img class="blocky" src="http://www.asmarterwaytolearn.com/loris.jpg">
+    <img class="blocky" src="http://www.asmarterwaytolearn.com/loris.jpg">
+    <br>These last 3 images were given the class "blocky", which has the property of 'display: block'. <br><br>
+    Click on the image below to give it a <color="red">red </color> border. Then move the mouse away to remove the border.
+    <img  id="bordy" class="blocky" src="http://www.asmarterwaytolearn.com/loris.jpg" onClick="makeBorder();" onMouseout="rmvBorder();">
+
+    <br> ^ 24 ^ <br><br><hr>
+
+    <img class="blocky" alt="loris" width="250" height="197" src="http://www.asmarterwaytolearn.com/loris.jpg">
+    <img class="blocky" alt="loris_small" width="125" height="99" src="http://www.asmarterwaytolearn.com/loris.jpg">
+    <br> ^ 25^ <br><br><hr>
+
+
+    <img class="inset" src="http://www.asmarterwaytolearn.com/loris.jpg">
+    <br>The above image has been inset 2ems<br>
+    <br> ^ 26 ^ <br><br><hr>
+
+    
+    <img class="center" src="http://www.asmarterwaytolearn.com/loris.jpg">
+    <br><h3>This image is centered using a class with the property 'margin: 0 auto;'.</h3>
+    <br>    ^ 27 ^ <br><br><hr>
+
+    <img class="lefty" alt="loris_small" width="500" height="394" src="http://www.asmarterwaytolearn.com/loris.jpg"> 
+    <p>This is a paragrpah surrounding a lil ass image of a loris.This is a paragrpah surrounding a lil ass image of a loris.This is a paragrpah surrounding a lil ass image of a loris.This is a paragrpah surrounding a lil ass image of a loris.This is a paragrpah surrounding a lil ass image of a loris.This is a paragrpah surrounding a lil ass image of a loris.This is a paragrpah surrounding a lil ass image of a loris.This is a paragrpah surrounding a lil ass image of a loris.</p>
+    <p class="nah">This paragraph clears the float.</p>
+    <br> ^ 28 ^ <br><br><hr>
+
+    <a href="http://www.stackoverflow.com">Stack Overflow</a>
+    <br> ^ 29 ^ <br><br><hr>
+
+
+    This is a paragraph with pointless text that ends up finally bringing the user to a <a href="http://www.asmarterwaytolearn.com/why-exercises.html">link</a> that goes to this dumb site with no navigation.
+    <br> ^ 30 ^ <br><hr>
+    <p>This is a <a href="#top">link</a> that goes back to the top of the page.</p><br>
+    These are all links that go to the top of the page.<br>
+    <div class="tops">
+      <div class="top-buttons">
+        <a href="#top">
+          <img src="images/TOP2.png">
+        </a>
+        <a href="#top">
+          <img src="images/TOP3.png">
+        </a>
+        <a href="#top">
+          <img src="images/TOP4.png">
+        </a>
+        <a href="#top">
+          <img src="images/TOP5.png">
+        </a>
+      </div>
+    </div>
+
+    <br> ^ 31 ^ <br><hr>
+
+    <div id="stackoverflowanchor">
+      <a href="http://www.stackoverflow.com" target="_blank"><img class ="center" src="images/so-logo.png"></a>
+    </div>
+    <br> ^ 32 ^ <br><hr>
+    <div id="link-examples">
+      <h5>Some Links:</h5>
+      <a id="link1" class="links" href="#">First Link</a>
+      <a id="link2" class="links" href="#">Second Link</a>
+      <a id="link3" class="links" href="#">Third Link</a>
+      <a id="link4" class="links" href="#">Fourth Link</a>
+    </div>
+    <br> ^ 33 ^ <br><hr>
+
+    <div class="unordered">
+      <ul>
+        <h4>Unordered List</h4>
+        <li>
+          A Mug
+        </li>
+        <li>
+          A Breh
+        </li>
+        <li>
+          A Squeh
+        </li>
+        <li>
+          A Deh
+        </li>
+      </ul>
+    </div>
+    <div class="ordered">
+      <ol>
+        <h4>Ordered List</h4>
+        <li>
+          Put on underwear.
+        </li>
+        <li>
+          Put on pants.
+        </li>
+        <li>
+          Put on socks.
+        </li>
+        <li>
+          Put on shoes.
+        </li>
+      </ol>
+    </div>
+    <br> ^ 37 ^ <br><hr>
+    <tablediv>
+      <table>
+        <tr>
+          <th scope="col"><!-- nothing --></th>
+          <th scope="col">Numbers</th>
+          <th scope="col">Animals</th>
+          <th scope="col">Planets</th>
+        </tr>
+        <tr>
+          <th scope="row">Bogus</th>
+          <td>510</td>
+          <td>Cheetah</td>
+          <td>Venus</td>
+        </tr>
+        <tr>
+          <th scope="row">Togas</th>
+          <td>333</td>
+          <td>Owl</td>
+          <td>Mars</td>
+        </tr>
+        <tr>
+          <th scope="row">Mothras</th>
+          <td>100000</td>
+          <td>Eagle</td>
+          <td>Mercury</td>
+        </tr>
+      </table>
+      <table class="nicetable">
+        <tr>
+          <th scope="col"><!-- nothing --></th>
+          <th scope="col">Numbers</th>
+          <th scope="col">Animals</th>
+          <th scope="col">Planets</th>
+        </tr>
+        <tr>
+          <th scope="row">Bogus</th>
+          <td>510</td>
+          <td>Cheetah</td>
+          <td>Venus</td>
+        </tr>
+        <tr>
+          <th scope="row">Togas</th>
+          <td>333</td>
+          <td>Owl</td>
+          <td>Mars</td>
+        </tr>
+        <tr>
+          <th scope="row">Mothras</th>
+          <td>100000</td>
+          <td>Eagle</td>
+          <td>Mercury</td>
+        </tr>
+      </table>
+    </tablediv>
+
+    <br> ^ 41-43 ^ <br><hr>
+
+    <table class="funky">
+      <tr>
+        <th class="toprow" scope="col">
+          <!-- nothing -->
+        </th>
+        <th class="toprow" scope="col">Numbers</th>
+        <th class="toprow" scope="col">Animals</th>
+        <th class="toprow" scope="col">Planets</th>
+      </tr>
+      <tr>
+        <th class="leftrow" scope="row">Bogus</th>
+        <td>510</td>
+        <td>Cheetah</td>
+        <td>Venus</td>
+      </tr>
+      <tr>
+        <th class="leftrow" scope="row">Togas</th>
+        <td>333</td>
+        <td>Owl</td>
+        <td>Mars</td>
+      </tr>
+      <tr>
+        <th class="leftrow" scope="row">Mothras</th>
+        <td>100000</td>
+        <td>Eagle</td>
+        <td>Mercury</td>
+      </tr>
+    </table>
+    <br> ^ 44-48 ^ <br><hr>
+
+    <h2>A Big Ass Form</h2>
+    <divforms>
+      <form>
+        <fieldset>
+          <legend>Car</legend>
+          <div2>
+            <label><input type="checkbox" name="car" value="BMW">BMW</label><br>
+            <label><input type="checkbox" name="car" value="VW">VW</label><br>
+            <label><input type="checkbox" name="car" value="Volvo">Volvo</label><br>
+            <label><input type="checkbox" name="car" value="Honda">Honda</label><br>
+          </div2>
+          <div>
+            <label><input type="checkbox" name="car" value="Hyundai">Hyundai</label><br>
+            <label><input type="checkbox" name="car" value="Nissan">Nissan</label><br>
+            <label><input type="checkbox" name="car" value="Toyota">Toyota</label><br>
+            <label><input type="checkbox" name="car" value="Lincoln">Lincoln</label><br>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Personal</legend>
+          <label>First name:<input type="text" name="firstName"></label><br>
+          <label>Last name:<input type="text" name="lastName"></label><br>
+          <label>Email:<input type="email" name="email"></label><br>
+          <label>Mailing Address:<input type="address" name="mailAddress"></label><br>
+        </fieldset>
+        <fieldset>
+          <legend>Videogames</legend>
+          <label><input type="radio" name="videogames" value="Nintendo">Nintendo</label><br>
+          <label><input type="radio" name="videogames" value="xbox">Xbox</label><br>
+          <label><input type="radio" name="videogames" value="PS">PlayStation</label><br>
+          <label><input type="radio" name="videogames" value="Pc">PC</label><br>
+        </fieldset>
+        <fieldset>
+          <legend>Personal Bio</legend>
+          <textarea type="text" name="bio"></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Favorite Ice Cream</legend>
+          <div2>
+          <label><input type="checkbox" name="iceCream" value="vanilla">Vanilla</label><br>
+          <label><input type="checkbox" name="iceCream" value="chocolate">Chocoate</label><br>
+          <label><input type="checkbox" name="iceCream" value="Neopolitan">Neopolitan</label><br>
+          <label><input type="checkbox" name="iceCream" value="MintChoco">Chocolate Mint</label><br>
+          </div2>
+          <div2>
+          <label><input type="checkbox" name="iceCream" value="Moose Tracks">Moose Tracks</label><br>
+          <label><input type="checkbox" name="iceCream" value="RockyRoad">Rocky Road</label><br>
+          <label><input type="checkbox" name="iceCream" value="SuperMan">Super Man</label><br>
+          <label><input type="checkbox" name="iceCream" value="cheesecake">Cheesecake</label><br>
+          </div2>
+        </fieldset>
+      
+        <fieldset>
+          <legend>choose one</legend>
+          <label><input type="radio" name="videogames" value="Nintendo">Nintendo</label><br>
+          <label><input type="radio" name="videogames" value="xbox">Xbox</label><br>
+          <label><input type="radio" name="videogames" value="PS">PlayStation</label><br>
+        </fieldset>
+        <button type="submit" >Submit</button>
+      </form>
+    </divforms> 
+    <br>
+    <br> ^ 49-58 ^ <br><hr>
+    <br>
+
+
+
+
+
+
+    <!-- Javascripts here!!! -->
+    <script src="scripts.js"></script>
+  </body>
+</html>

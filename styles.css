@@ -1,0 +1,215 @@
+﻿/*css style for all paragraphs. */
+p {
+  font-family: Geneva, "Times New Roman", Times, serif;
+  font-size: 1em; /*this line from ch. 6 */
+}
+
+/*h1 headings style */
+h1{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 2em; /* this line from ch. 6 */
+}
+
+/* ^^^ Chapter 4 ^^^ */
+
+/* paragraph class called "important" */
+p.important {
+  font-size: 1.5em;
+  font-weight: bolder; /*line added in ch. 9 */
+}
+
+/* Ch. 7 ^^^ */
+
+.type-writer {
+  font-family: "Courier New", Courier, monospace;
+} /* CH. 8 ^^^ */
+
+.emphasized {
+  font-style: italic;
+} /* Ch. 10 ^^^ */
+
+.standout {
+  color: red;
+} /* 11 & 12 */
+
+.lines {
+  letter-spacing: .5em;
+  word-spacing: .9em;
+  line-height: 1.8em;
+} /* ch 13 */
+
+h3 {
+  text-align: center;
+} /* ch 14 */
+
+.justify {
+  text-align: justify;
+  max-width: 500px;
+} /* ch 14 */
+
+.indented {
+  text-indent: 1em;
+} /* ch 15 */
+
+blockquote {
+  font-size: 1.4em;
+  color: darkslategray;
+  max-width: 300px;
+} /* ch 15 */
+
+p.margin {
+  margin: 13em 12em 15em 10em;
+} /* ch 16 */
+
+.border {
+  text-align: center;
+  width: 350px;
+  border: 2px solid royalblue;
+  padding: 5px; /* line added in ch 18 */
+  margin: 0 auto;
+} /* ch 17 */
+
+h4.center,p.center {
+  text-align: center;
+} /* ch 20 */
+
+h2#orange {
+  color: orange;
+} /* ch 21 */
+
+div#artsy {
+  margin: 0 3em 0 3em;
+  font-family: Arial, Helvetica, sans-serif;
+} /* ch 22 */
+
+img.blocky {
+  display: block;
+} /* ch 24 */
+
+img.inset {
+  display: block;
+  margin-left: 2em;
+} /* ch 26 */
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} /* ch 27 */
+
+
+img.lefty {
+  float: left;
+  margin: .5em;
+} /* ch 28 */
+
+p.nah {
+  clear: both;
+} /* ch 28 */
+
+div.top-buttons {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background: linear-gradient(45deg, red, blue, hotpink, aqua, purple, pink, yellow);
+}
+.top-buttons a {
+  margin: 0 auto;
+  width: 24%;
+}
+.top-buttons a img {
+  width: 90%;
+  border-radius: 100%;
+}
+
+div#stackoverflowanchor {
+    background: linear-gradient(135deg, red, blue, hotpink, aqua, purple, pink, yellow);
+}
+div#stackoverflowanchor a img {
+  width: 90%;
+}
+
+/*    */
+div#link-examples {
+  width: 100%;
+}
+div#link-examples a,
+div#link-examples h5 {
+  margin: 1em auto;
+  display: block;
+  text-align: center; 
+}
+a#link1 {
+  text-decoration: underline;
+}
+a#link2 {
+  text-decoration: overline;
+}
+a#link3 {
+  text-decoration: line-through;
+}
+a#link4 {
+  text-decoration: none;
+}
+a.links:hover {
+  background-color: cornflowerblue;
+}
+a.links:active {
+  background-color: tomato;
+  color: white;
+}
+
+.ordered li,
+.unordered li {
+  margin: .75em;
+}
+
+tablediv {
+  display: flex;
+}
+tablediv table, table {
+  margin-right: 2em;
+  border-collapse: collapse;
+}
+table.nicetable,
+table.nicetable th,
+table.nicetable td {
+  border: 1px solid black;
+}
+table th,
+table td {
+  padding: .2em;
+}
+th.toprow {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+th.leftrow {
+  border-right: 2px solid black;
+}
+table.funky th,
+table.funky td{
+  text-align: center;
+}
+table.funky {
+  width: 30%;
+}
+
+/* form styling */
+
+form {
+  display: inline-flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+fieldset {
+  width: 30%;
+}
+legend {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+div2 {
+  float: right;
+  width: 48%;
+}
